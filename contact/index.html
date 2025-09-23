@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Home | Jake Reese Portfolio</title>
+  <meta name="description" content="Home Page for Jake Reese's Portfolio">
+  <meta name="author" content="Jake Reese">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
+
+  <link rel="stylesheet" href="/css/style.css">
+
+  <!-- Font Awesome Link
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://kit.fontawesome.com/37dd0a2062.js" crossorigin="anonymous"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+
+</head>
+
+<body>
+
+  <header>
+    <div class="row">
+      <div class="twelve columns">
+        <nav id="nav-container">
+          <div id="small-screen-elements">
+            <h2 id="headerTitle">Jake Reese</h2>
+            <button id="toggle-nav-burger">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+
+          <ul class="menu-items">
+            <li>
+              <a href="/index.html">Home</a>
+            </li>
+            <li>
+              <a href="/projects/index.html">Projects</a>
+            </li>
+            <li>
+              <a href="/about/index.html">About</a>
+            </li>
+            <li>
+              <a href="/contact/index.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="subheader">
+    <h2>I'd love to hear from you!</h2>
+  </div>
+
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="ten columns">
+          <h3>Contact Me!</h3>
+          
+        </div>
+        <div class="two columns">
+          <br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="six columns">
+          <p>Fill out the form below to contact me via Email:</p>
+          
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="541efd75-c589-4427-8bf7-65f26455e5df">
+            <div class="row">
+              <div class="six columns">
+                <h4>Name</h4>
+                <input style="width: 100%;" type="text" name="name" placeholder="Enter your name here" required>
+              </div>
+              <div class="six columns">
+                <h4>Email</h4>
+                <input style="width: 100%;" type="email" name="email" placeholder="Enter your email here" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="twelve columns">
+                <h4>Message</h4>
+                <textarea style="width: 100%;" name="message" placeholder="Enter your message here" required></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="twelve columns">
+                <!-- Honeypot Spam Protection -->
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+              </div>
+            </div>
+            <div class="row">
+              <div class="four columns">
+                <br>
+              </div>
+              <div class="four columns">
+                <button type="submit">Submit Form</button>
+              </div>
+              <div class="four columns">
+                <br>
+              </div>
+            </div>
+            <!-- Custom Confirmation / Success Page -->
+            <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+          </form>
+        </div>
+        <div class="six columns">
+          <p>You can also contact me by reaching out on these platforms:</p>
+          <ul id="contactList">
+            <a href="https://instagram.com/bluedemonboi/"target="_blank"><li><i class="fa-brands fa-instagram"></i>  @bluedemonboi</li></a>
+            <a href="https://discord.com/users/bluedemonboi/"target="_blank"><li><i class="fa-brands fa-discord"></i>  @BlueDemonBoi</li></a>
+            <br><br>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="six columns">
+          Contact Info:
+          <br>
+          Email: Jakereese986@gmail.com
+          <br>
+          Phone: (312) 860-1032
+          <br>
+          <br>
+        </div>
+        <div class="six columns">
+          Designed and Coded by Jake Reese using <a href="http://getskeleton.com">Skeleton Boilerplate</a>
+          <br>
+          <br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="twelve columns">
+          Page Last Updated: 09/23/2025
+          <br>
+          <br>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+<script>
+  const toggleBtn = document.getElementById('toggle-nav-burger');
+  const menuItems = document.querySelector('.menu-items');
+
+  toggleBtn.addEventListener('click', () => {
+    menuItems.classList.toggle('show-menu-items');
+  })
+
+
+</script>
+
+</html>

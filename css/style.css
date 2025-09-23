@@ -20,12 +20,40 @@ header {
     flex-grow: .025;
 }
 
+#headerTitle {
+    text-transform: uppercase;
+    text-align: left;
+}
+
 main {
     width: 95%;
     height: auto;
     padding: 0.5%;
     margin: 0 auto;
     flex-grow: .95;
+}
+
+/* Custom Subheader Code  ------------------------------------------------------------------*/
+
+.subheader {
+    min-height: 5vh;
+    height: fit-content;
+    margin: 0 0;
+    padding: 1vh 6vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2.5vh;
+
+    background-color: #b0a0d6;   
+}
+
+.subheader > h1,
+.subheader > h2,
+.subheader > h3,
+.subheader > h4,
+.subheader > h5 {
+    color: #242424;
 }
 
 footer {
@@ -39,93 +67,172 @@ footer {
     flex-grow: .025;
 }
 
-/* Navbar Code adapted from W3School ------------------------------------------------------------------*/
+/* Navbar Code  ------------------------------------------------------------------*/
 
-.navBar {
+nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+nav a {
+    font-family: "Roboto Mono", monospace;
+    font-size: 3rem;
+    text-decoration: none;
+    color: #e3ecff;
+
+}
+
+.menu-items {
+    display: none;
+    background-color: #1a2131;
+}
+
+.menu-items a {
+    display: block;
+    font-size: 2rem;
+    padding-top: .5rem;
+    margin-left: .25rem;
+}
+
+#small-screen-elements {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-evenly;
+    /* height: 120px; */
+    margin-left: 5%;
+}
+
+#toggle-nav-burger {
+    border: none;
+    font-size: 4.2rem;
+    color:#e3ecff;
+    margin-right: 2rem;
+}
+
+.show-menu-items {
+    display: block;
+    height: fit-content;
+}
+
+@media screen and (min-width: 750px) {
+
+    #toggle-nav-burger {
+        display: none;
+    }
+
+    #nav-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu-items {
+        display: flex;
+        flex-direction: row;
+        background-color: transparent;
+        margin-right: 5%;
+    }
+    .menu-items li a {
+        padding-top: 0rem;
+        margin-right: 1.4rem;
+        font-size: 3rem;
+    }
     
 }
 
-.navBar > a.navButton, .navBar > div.dropdown > div.dropbtn {
-    padding: 1rem .5rem;
-    font-size: 3rem;
-    min-height: 5rem;
-    background-color: #1a2131;
-    color: #e3ecff;
-    font-family: "Roboto Mono", monospace;
-    font-weight: bolder;
-}
-
-.dropdown {
-  position: relative;
-}
-
-.dropbtn {
-    padding: 1rem .5rem;
-    font-size: 3rem;
-    min-height: 5rem;
-    border: none;
-    cursor: pointer;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #b3dff3;
-  min-width: 154px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-.dropdown-content a {
-    color: #284074;
-    padding: .5em .75em;
-    text-decoration: none;
-    display: block;
-    font-weight: bolder;
-    font-size: 2rem;
-}
-
-.dropdown-content a:hover {
-    transition: .125s;
-    background-color: #284074;
-    color: #b3dff3;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn, .dropdown:hover .dropbtn:hover, .navBar > a.navButton:hover {
-    transition: .25s;
-    background-color: #b3dff3;
-    color: #284074;
-}
 
 /* --------------------------------------------------------------------------------------------------------------------------------- */
 
 /* Font Formatting */
 
 h1,
-h2,
+h2 {
+    font-family: "Urbanist", sans-serif;
+    color:#e3ecff;
+    font-weight: 700;
+}
+
 h3,
 h4,
 h5 {
     font-family: "Roboto Mono", monospace;
+    color: #61f3fd;
 }
 
-h1 {
-    font-weight: bolder;
-    color:#e3ecff;
+p {
+    font-family: "Urbanist", sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
 }
 
-/* Here's the rest and specific stuff */
+/* 404 Page Styling  ------------------------------------------------------------------*/
 
-#headerTitle {
+#PageNotFound {
+    padding: 10% 0%;
+    min-height: 40vh;
+    min-width: 50%;
+    text-align: center;
+    background-color: transparent;
+    color:#1a2131;
+}
+
+#PageNotFound > h1,
+#PageNotFound > h3 {
+    color:#e3ecff
+}
+
+#PageNotFound a > button {
+    font-size: 5rem;
+    padding: 2rem 1rem;
+    background-color: #1a2131;
+    color: #ff4242;
+    height: fit-content;
+}
+
+#PageNotFound a > button:hover {
+    transition: .25s;
+    background-color: #ac1e1e;
+    color: #f2f6ff;
+}
+
+/* Form Styling  ------------------------------------------------------------------*/
+
+input {
+    color: #242424;
+}
+
+textarea {
+    color: #242424;
+}
+
+form > div > div > button {
+    background-color: #e3ecff;
+    color: #242424;
+    font-size: 1.5rem;
+    font-family: "Urbanist", sans-serif;
+}
+
+/* Contact Page  ------------------------------------------------------------------*/
+
+#contactList > a  {
+    margin: 0;
+    list-style-type: none;
+    font-size: 2.5rem;
+    text-decoration: none;
     color: #e3ecff;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: left;
+    line-height: 4rem;
 }
+
+#contactList > a > li > i  {
+    font-size: 3rem;
+}
+
+#contactList > a:hover  {
+    text-decoration: underline;
+    color: #61f3fd;
+}
+
+
+
