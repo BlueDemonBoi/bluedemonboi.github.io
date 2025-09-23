@@ -1,7 +1,7 @@
 body {
     height: auto;
     margin: 0 auto;
-    background-color: #515868;
+    background-color: #284074;
     color: #e5e8f0;
     font-weight: 300;
     display: flex;
@@ -12,10 +12,10 @@ body {
 header {
     margin: 0 auto;
     position: sticky;
-    padding: .5em 0em;
+    padding: .5em 0em 0em;
     width: 100%;
-    text-align: left;
-    background-color: #2e2b38;
+    text-align: center;
+    background-image: linear-gradient(to right, #ffffff00, #1a2131, #1a2131);
     color: #e5e8f0;
     flex-grow: .025;
 }
@@ -34,12 +34,12 @@ footer {
     padding: .5em 0em;
     width: 100%;
     text-align: center;
-    background-color: #2e2b38;
+    background-color: #1a2131;
     color: #e5e8f0;
     flex-grow: .025;
 }
 
-/* Navbar Code */
+/* Navbar Code adapted from W3School ------------------------------------------------------------------*/
 
 .navBar {
     display: flex;
@@ -49,8 +49,83 @@ footer {
     
 }
 
-.navBar > a.navButton, .navBar > div.dropdownBtn {
+.navBar > a.navButton, .navBar > div.dropdown > div.dropbtn {
     padding: 1rem .5rem;
     font-size: 3rem;
     min-height: 5rem;
+    background-color: #1a2131;
+    color: #e3ecff;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bolder;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropbtn {
+    padding: 1rem .5rem;
+    font-size: 3rem;
+    min-height: 5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #b3dff3;
+  min-width: 154px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: #284074;
+    padding: .5em .75em;
+    text-decoration: none;
+    display: block;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.dropdown-content a:hover {
+    transition: .125s;
+    background-color: #284074;
+    color: #b3dff3;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn, .dropdown:hover .dropbtn:hover, .navBar > a.navButton:hover {
+    transition: .25s;
+    background-color: #b3dff3;
+    color: #284074;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Font Formatting */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+    font-weight: bolder;
+    color:#e3ecff;
+}
+
+/* Here's the rest and specific stuff */
+
+#headerTitle {
+    color: #e3ecff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
 }
