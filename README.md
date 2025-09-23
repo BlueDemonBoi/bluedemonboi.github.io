@@ -1,2 +1,2 @@
 # bluedemonboi.github.io
-Jake Reese's Portfolio
+Jake Reese's Official Online Portfolio
