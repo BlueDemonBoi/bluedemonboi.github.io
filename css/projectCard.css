@@ -74,7 +74,6 @@
     background-size: 100%;
 }
 
-
 @media screen and (min-width: 750px) {
     .project-photo {
         width: 100%;
@@ -85,7 +84,7 @@
 /* Facing Yourself */
 
 .project-photo#facingYourself {
-    background: url(./images/projectPhotos/facingYourself/Image01.png);
+    background: url(/images/projectPhotos/facingYourself/Image01.png);
     background-size: 100%;
 }
 
@@ -97,19 +96,19 @@
 
 @keyframes animFacYou { 
     25%{
-        background: url(./images/projectPhotos/facingYourself/Image02.png);
+        background: url(/images/projectPhotos/facingYourself/Image02.png);
         background-size: 100%;
     }
     50%{
-        background: url(./images/projectPhotos/facingYourself/Image03.png);
+        background: url(/images/projectPhotos/facingYourself/Image03.png);
         background-size: 100%;
     }
     75%{
-        background: url(./images/projectPhotos/facingYourself/Image04.png);
+        background: url(/images/projectPhotos/facingYourself/Image04.png);
         background-size: 100%;
     }
     100%{
-        background: url(./images/projectPhotos/facingYourself/Image01.png);
+        background: url(/images/projectPhotos/facingYourself/Image01.png);
         background-size: 100%;
     }
 }
@@ -117,7 +116,7 @@
 /* Riptide */
 
 .project-photo#riptide {
-    background: url(./images/projectPhotos/riptideWebsite/photo01.png);
+    background: url(/images/projectPhotos/riptideWebsite/photo01.png);
     background-size: 100%;
 }
 
@@ -129,26 +128,26 @@
 
 @keyframes animRiptide { 
     25%{
-        background: url(./images/projectPhotos/riptideWebsite/photo02.png);
+        background: url(/images/projectPhotos/riptideWebsite/photo02.png);
         background-size: 100%;
     }
     50%{
-        background: url(./images/projectPhotos/riptideWebsite/photo03.png);
+        background: url(/images/projectPhotos/riptideWebsite/photo03.png);
         background-size: 100%;
     }
     75%{
-        background: url(./images/projectPhotos/riptideWebsite/photo04.png);
+        background: url(/images/projectPhotos/riptideWebsite/photo04.png);
         background-size: 100%;
     }
     100%{
-        background: url(./images/projectPhotos/riptideWebsite/photo05.png);
+        background: url(/images/projectPhotos/riptideWebsite/photo05.png);
         background-size: 100%;
     }
 }
 
 /* Visual Journal */
 .project-photo#visJour {
-    background: url(./images/projectPhotos/visualJournal/Reese_Jake_Visual_Journal_Week_1-1.jpg);
+    background: url(/images/projectPhotos/visualJournal/Reese_Jake_Visual_Journal_Week_1-1.jpg);
     background-size: 100%;
 }
 
@@ -160,26 +159,26 @@
 
 @keyframes animvisJour { 
     25%{
-        background: url(./images/projectPhotos/visualJournal/Reese_Jake_Visual_Journal_Week_2-2.jpg);
+        background: url(/images/projectPhotos/visualJournal/Reese_Jake_Visual_Journal_Week_2-2.jpg);
         background-size: 100%;
     }
     50%{
-        background: url(./images/projectPhotos/visualJournal/Reese_Jake_Visual_Journal_Week_4-2.jpg);
+        background: url(/images/projectPhotos/visualJournal/Reese_Jake_Visual_Journal_Week_4-2.jpg);
         background-size: 100%;
     }
     75%{
-        background: url(./images/projectPhotos/visualJournal/Reese_Jake_Visual_Journal_Week_3-2.jpg);
+        background: url(/images/projectPhotos/visualJournal/Reese_Jake_Visual_Journal_Week_3-2.jpg);
         background-size: 100%;
     }
     100%{
-        background: url(./images/projectPhotos/visualJournal/Reese_Jake_Visual_Journal_Week_1-1.jpg);
+        background: url(/images/projectPhotos/visualJournal/Reese_Jake_Visual_Journal_Week_1-1.jpg);
         background-size: 100%;
     }
 }
 
 /* Variant Website */
 .project-photo#variWeb {
-    background: url(./images/projectPhotos/variantUni/photo01.png);
+    background: url(/images/projectPhotos/variantUni/photo01.png);
     background-size: 100%;
 }
 
@@ -191,26 +190,26 @@
 
 @keyframes animvariWeb { 
     25%{
-        background: url(./images/projectPhotos/variantUni/photo02.png);
+        background: url(/images/projectPhotos/variantUni/photo02.png);
         background-size: 100%;
     }
     50%{
-        background: url(./images/projectPhotos/variantUni/NEWx5_3DRender_021324.png);
+        background: url(/images/projectPhotos/variantUni/NEWx5_3DRender_021324.png);
         background-size: 100%;
     }
     75%{
-        background: url(./images/projectPhotos/variantUni/photo03.jpg);
+        background: url(/images/projectPhotos/variantUni/photo03.jpg);
         background-size: 100%;
     }
     100%{
-        background: url(./images/projectPhotos/variantUni/photo01.png);
+        background: url(/images/projectPhotos/variantUni/photo01.png);
         background-size: 100%;
     }
 }
 
 /* "The Meeting" Short Film  */
 .project-photo#meetFilm {
-    background: url(./images/projectPhotos/theMeeting/animVer/vlcsnap-2025-09-24-05h12m34s351.png);
+    background: url(/images/projectPhotos/theMeeting/animVer/vlcsnap-2025-09-24-05h12m34s351.png);
     background-size: 100%;
 }
 
@@ -222,26 +221,26 @@
 
 @keyframes animmeetFilm { 
     25%{
-        background: url(./images/projectPhotos/theMeeting/liveVer/photo02.png);
+        background: url(/images/projectPhotos/theMeeting/liveVer/photo02.png);
         background-size: 100%;
     }
     50%{
-        background: url(./images/projectPhotos/theMeeting/animVer/CharacterModels.png);
+        background: url(/images/projectPhotos/theMeeting/animVer/CharacterModels.png);
         background-size: 100%;
     }
     75%{
-        background: url(./images/projectPhotos/theMeeting/liveVer/photo03.png);
+        background: url(/images/projectPhotos/theMeeting/liveVer/photo03.png);
         background-size: 100%;
     }
     100%{
-        background: url(./images/projectPhotos/theMeeting/animVer/vlcsnap-2025-09-24-05h12m34s351.png);
+        background: url(/images/projectPhotos/theMeeting/animVer/vlcsnap-2025-09-24-05h12m34s351.png);
         background-size: 100%;
     }
 }
 
 /* City Photography */
 .project-photo#cityPhotos {
-    background: url(./images/projectPhotos/cityPhotos/IMG_0721-1.jpg);
+    background: url(/images/projectPhotos/cityPhotos/IMG_0721-1.jpg);
     background-size: 100%;
 }
 
@@ -253,26 +252,26 @@
 
 @keyframes animcityPhotos { 
     25%{
-        background: url(./images/projectPhotos/cityPhotos/IMG_0820.JPG);
+        background: url(/images/projectPhotos/cityPhotos/IMG_0820.JPG);
         background-size: 100%;
     }
     50%{
-        background: url(./images/projectPhotos/cityPhotos/IMG_1156.JPG);
+        background: url(/images/projectPhotos/cityPhotos/IMG_1156.JPG);
         background-size: 100%;
     }
     75%{
-        background: url(./images/projectPhotos/cityPhotos/IMG_1156.JPG);
+        background: url(/images/projectPhotos/cityPhotos/IMG_1156.JPG);
         background-size: 100%;
     }
     100%{
-        background: url(./images/projectPhotos/cityPhotos/IMG_0721-1.jpg);
+        background: url(/images/projectPhotos/cityPhotos/IMG_0721-1.jpg);
         background-size: 100%;
     }
 }
 
 /* Content Creation */
 .project-photo#youTwitch {
-    background: url(./images/projectPhotos/youTwitch/photo01.png);
+    background: url(/images/projectPhotos/youTwitch/photo01.png);
     background-size: 100%;
 }
 
@@ -284,26 +283,26 @@
 
 @keyframes animyouTwitch { 
     25%{
-        background: url(./images/projectPhotos/youTwitch/twitchStartingScreen.gif);
+        background: url(/images/projectPhotos/youTwitch/twitchStartingScreen.gif);
         background-size: 100%;
     }
     50%{
-        background: url(./images/projectPhotos/youTwitch/photo04.png);
+        background: url(/images/projectPhotos/youTwitch/photo04.png);
         background-size: 100%;
     }
     75%{
-        background: url(./images/projectPhotos/youTwitch/Photo06.png);
+        background: url(/images/projectPhotos/youTwitch/Photo06.png);
         background-size: 100%;
     }
     100%{
-        background: url(./images/projectPhotos/youTwitch/photo01.png);
+        background: url(/images/projectPhotos/youTwitch/photo01.png);
         background-size: 100%;
     }
 }
 
 /* Model Photography */
 .project-photo#modelPhotos {
-    background: url(./images/projectPhotos/modelPhotos/IMG_1015.jpg);
+    background: url(/images/projectPhotos/modelPhotos/IMG_1015.jpg);
     background-size: 100%;
 }
 
@@ -315,26 +314,26 @@
 
 @keyframes animmodelPhotos { 
     25%{
-        background: url(./images/projectPhotos/modelPhotos/IMG_1485.JPG);
+        background: url(/images/projectPhotos/modelPhotos/IMG_1485.JPG);
         background-size: 100%;
     }
     50%{
-        background: url(./images/projectPhotos/modelPhotos/Top.png);
+        background: url(/images/projectPhotos/modelPhotos/Top.png);
         background-size: 100%;
     }
     75%{
-        background: url(./images/projectPhotos/modelPhotos/IMG_1518.jpg);
+        background: url(/images/projectPhotos/modelPhotos/IMG_1518.jpg);
         background-size: 100%;
     }
     100%{
-        background: url(./images/projectPhotos/modelPhotos/IMG_1015.jpg);
+        background: url(/images/projectPhotos/modelPhotos/IMG_1015.jpg);
         background-size: 100%;
     }
 }
 
 /* The "G" Project */
 .project-photo#theGPro {
-    background: url(./images/projectPhotos/theGProject/photo01.png);
+    background: url(/images/projectPhotos/theGProject/photo01.png);
     background-size: 100%;
 }
 
@@ -346,19 +345,19 @@
 
 @keyframes animtheGPro { 
     25%{
-        background: url(./images/projectPhotos/theGProject/photo02.png);
+        background: url(/images/projectPhotos/theGProject/photo02.png);
         background-size: 100%;
     }
     50%{
-        background: url(./images/projectPhotos/theGProject/photo03.png);
+        background: url(/images/projectPhotos/theGProject/photo03.png);
         background-size: 100%;
     }
     75%{
-        background: url(./images/projectPhotos/theGProject/photo04.png);
+        background: url(/images/projectPhotos/theGProject/photo04.png);
         background-size: 100%;
     }
     100%{
-        background: url(./images/projectPhotos/theGProject/photo01.png);
+        background: url(/images/projectPhotos/theGProject/photo01.png);
         background-size: 100%;
     }
 }
