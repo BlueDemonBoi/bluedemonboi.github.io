@@ -70,9 +70,10 @@
     aspect-ratio: 16 / 9;
     margin: 3rem 2rem 2rem;
 
-    background: url(./images/placeholder-1920x1080.png);
+    background: url(https://bluedemonboi.github.io/bluedemonboi.github.io/images/placeholder-1920x1080.png);
     background-size: 100%;
 }
+
 
 @media screen and (min-width: 750px) {
     .project-photo {
