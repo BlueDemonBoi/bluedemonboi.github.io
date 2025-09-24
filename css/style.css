@@ -48,7 +48,7 @@ main {
     align-items: center;
     margin-bottom: 2.5vh;
 
-    background-color: #b0a0d6;   
+    background-color: #74c9eb;   
 }
 
 .subheader > h1,
@@ -57,6 +57,7 @@ main {
 .subheader > h4,
 .subheader > h5 {
     color: #242424;
+    margin-top: 2rem;
 }
 
 footer {
@@ -352,3 +353,4 @@ form > div > div > button {
         transform: translateY(0%);
     }
 }
+
