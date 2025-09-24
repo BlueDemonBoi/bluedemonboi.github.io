@@ -70,7 +70,7 @@
     aspect-ratio: 16 / 9;
     margin: 3rem 2rem 2rem;
 
-    background: url(./images/placeholder-1920x1080.png);
+    background: url(/images/placeholder-1920x1080.png);
     background-size: 100%;
 }
 
