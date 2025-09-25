@@ -81,19 +81,72 @@
     }
 }
 
-/* Facing Yourself */
+/* Project Cards Photo Preload  ---------------------------------------------------------*/
 
+body::after{
+   position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+   content:
+   /* FacingYourself */
+   url(/images/projectPhotos/facingYourself/thumbnails/thumb01.webp)
+   url(/images/projectPhotos/facingYourself/thumbnails/thumb02.webp)
+   url(/images/projectPhotos/facingYourself/thumbnails/thumb03.webp)
+   url(/images/projectPhotos/facingYourself/thumbnails/thumb04.webp)
+   /* Riptide */
+   url(/images/projectPhotos/riptideWebsite/thumbnails/thumb01.webp)
+   url(/images/projectPhotos/riptideWebsite/thumbnails/thumb02.webp)
+   url(/images/projectPhotos/riptideWebsite/thumbnails/thumb03.webp)
+   url(/images/projectPhotos/riptideWebsite/thumbnails/thumb04.webp)
+   /* Visual Journal */
+   url(/images/projectPhotos/visualJournal/thumbnails/thumb01.webp)
+   url(/images/projectPhotos/visualJournal/thumbnails/thumb02.webp)
+   url(/images/projectPhotos/visualJournal/thumbnails/thumb03.webp)
+   url(/images/projectPhotos/visualJournal/thumbnails/thumb04.webp)
+   /* Variant Website */
+   url(/images/projectPhotos/variantUni/thumbnails/thumb01.webp)
+   url(/images/projectPhotos/variantUni/thumbnails/thumb02.webp)
+   url(/images/projectPhotos/variantUni/thumbnails/thumb03.webp)
+   url(/images/projectPhotos/variantUni/thumbnails/thumb04.webp)
+   /* "The Meeting" Short Film  */
+   url(/images/projectPhotos/theMeeting/thumbnails/thumb00.webp)
+   url(/images/projectPhotos/theMeeting/thumbnails/thumb01.gif)
+   url(/images/projectPhotos/theMeeting/thumbnails/thumb02.gif)
+   url(/images/projectPhotos/theMeeting/thumbnails/thumb03.gif)
+   url(/images/projectPhotos/theMeeting/thumbnails/thumb04.webp)
+   /* City Photography */
+   url(/images/projectPhotos/cityPhotos/thumbnails/thumb01.webp)
+   url(/images/projectPhotos/cityPhotos/thumbnails/thumb02.webp)
+   url(/images/projectPhotos/cityPhotos/thumbnails/thumb03.webp)
+   url(/images/projectPhotos/cityPhotos/thumbnails/thumb04.webp)
+   /* Content Creation */
+   url(/images/projectPhotos/youTwitch/thumbnails/thumb01.webp)
+   url(/images/projectPhotos/youTwitch/thumbnails/thumb02.gif)
+   url(/images/projectPhotos/youTwitch/thumbnails/thumb03.webp)
+   url(/images/projectPhotos/youTwitch/thumbnails/thumb04.webp)
+   /* Model Photography */
+   url(/images/projectPhotos/modelPhotos/thumbnails/thumb01.webp)
+   url(/images/projectPhotos/modelPhotos/thumbnails/thumb02.webp)
+   url(/images/projectPhotos/modelPhotos/thumbnails/thumb03.webp)
+   url(/images/projectPhotos/modelPhotos/thumbnails/thumb04.webp)
+   /* The "G" Project */
+   url(/images/projectPhotos/theGProject/thumbnails/thumb00.webp)
+   url(/images/projectPhotos/theGProject/thumbnails/thumb01.gif)
+   url(/images/projectPhotos/theGProject/thumbnails/thumb02.gif)
+   url(/images/projectPhotos/theGProject/thumbnails/thumb03.gif)
+   url(/images/projectPhotos/theGProject/thumbnails/thumb04.gif)
+}
+
+/* Project Cards Anims  ---------------------------------------------------------*/
+
+/* Facing Yourself */
 .project-photo#facingYourself {
     background: url(/images/projectPhotos/facingYourself/thumbnails/thumb01.webp);
     background-size: 100%;
 }
-
 .project-card#facingYourself:hover {
     .project-photo#facingYourself {
         animation: animFacYou 10s infinite;
     }
 }
-
 @keyframes animFacYou { 
     25%{
         background: url(/images/projectPhotos/facingYourself/thumbnails/thumb02.webp);
@@ -114,18 +167,15 @@
 }
 
 /* Riptide */
-
 .project-photo#riptide {
     background: url(/images/projectPhotos/riptideWebsite/thumbnails/thumb01.webp);
     background-size: 100%;
 }
-
 .project-card#riptide:hover {
     .project-photo#riptide {
         animation: animRiptide 10s infinite;
     }
 }
-
 @keyframes animRiptide { 
     25%{
         background: url(/images/projectPhotos/riptideWebsite/thumbnails/thumb02.webp);
@@ -150,13 +200,11 @@
     background: url(/images/projectPhotos/visualJournal/thumbnails/thumb01.webp);
     background-size: 100%;
 }
-
 .project-card#visJour:hover {
     .project-photo#visJour {
         animation: animvisJour 10s infinite;
     }
 }
-
 @keyframes animvisJour { 
     25%{
         background: url(/images/projectPhotos/visualJournal/thumbnails/thumb02.webp);
@@ -181,13 +229,11 @@
     background: url(/images/projectPhotos/variantUni/thumbnails/thumb01.webp);
     background-size: 100%;
 }
-
 .project-card#variWeb:hover {
     .project-photo#variWeb {
         animation: animvariWeb 10s infinite;
     }
 }
-
 @keyframes animvariWeb { 
     25%{
         background: url(/images/projectPhotos/variantUni/thumbnails/thumb02.webp);
@@ -212,13 +258,11 @@
     background: url(/images/projectPhotos/theMeeting/thumbnails/thumb00.webp);
     background-size: 100%;
 }
-
 .project-card#meetFilm:hover {
     .project-photo#meetFilm {
         animation: animmeetFilm 10s infinite;
     }
 }
-
 @keyframes animmeetFilm { 
     25%{
         background: url(/images/projectPhotos/theMeeting/thumbnails/thumb01.gif);
@@ -243,13 +287,11 @@
     background: url(/images/projectPhotos/cityPhotos/thumbnails/thumb01.webp);
     background-size: 100%;
 }
-
 .project-card#cityPhotos:hover {
     .project-photo#cityPhotos {
         animation: animcityPhotos 10s infinite;
     }
 }
-
 @keyframes animcityPhotos { 
     25%{
         background: url(/images/projectPhotos/cityPhotos/thumbnails/thumb02.webp);
@@ -274,13 +316,11 @@
     background: url(/images/projectPhotos/youTwitch/thumbnails/thumb01.webp);
     background-size: 100%;
 }
-
 .project-card#youTwitch:hover {
     .project-photo#youTwitch {
         animation: animyouTwitch 10s infinite;
     }
 }
-
 @keyframes animyouTwitch { 
     25%{
         background: url(/images/projectPhotos/youTwitch/thumbnails/thumb02.gif);
@@ -305,13 +345,11 @@
     background: url(/images/projectPhotos/modelPhotos/thumbnails/thumb01.webp);
     background-size: 100%;
 }
-
 .project-card#modelPhotos:hover {
     .project-photo#modelPhotos {
         animation: animmodelPhotos 10s infinite;
     }
 }
-
 @keyframes animmodelPhotos { 
     25%{
         background: url(/images/projectPhotos/modelPhotos/thumbnails/thumb02.webp);
@@ -336,13 +374,11 @@
     background: url(/images/projectPhotos/theGProject/thumbnails/thumb00.webp);
     background-size: 100%;
 }
-
 .project-card#theGPro:hover {
     .project-photo#theGPro {
         animation: animtheGPro 10s infinite;
     }
 }
-
 @keyframes animtheGPro { 
     25%{
         background: url(/images/projectPhotos/theGProject/thumbnails/thumb01.gif);
