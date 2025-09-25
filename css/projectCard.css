@@ -260,24 +260,24 @@ body::after{
 }
 .project-card#meetFilm:hover {
     .project-photo#meetFilm {
-        animation: animmeetFilm 10s infinite;
+        animation: animmeetFilm 15s infinite;
     }
 }
 @keyframes animmeetFilm { 
     25%{
-        background: url(/images/projectPhotos/theMeeting/thumbnails/thumb01.gif);
-        background-size: 100%;
-    }
-    50%{
         background: url(/images/projectPhotos/theMeeting/thumbnails/thumb02.gif);
         background-size: 100%;
     }
-    75%{
+    50%{
         background: url(/images/projectPhotos/theMeeting/thumbnails/thumb03.gif);
         background-size: 100%;
     }
-    100%{
+    75%{
         background: url(/images/projectPhotos/theMeeting/thumbnails/thumb04.webp);
+        background-size: 100%;
+    }
+    100%{
+        background: url(/images/projectPhotos/theMeeting/thumbnails/thumb01.gif);
         background-size: 100%;
     }
 }
@@ -376,24 +376,24 @@ body::after{
 }
 .project-card#theGPro:hover {
     .project-photo#theGPro {
-        animation: animtheGPro 10s infinite;
+        animation: animtheGPro 15s infinite;
     }
 }
 @keyframes animtheGPro { 
     25%{
-        background: url(/images/projectPhotos/theGProject/thumbnails/thumb01.gif);
-        background-size: 100%;
-    }
-    50%{
         background: url(/images/projectPhotos/theGProject/thumbnails/thumb02.gif);
         background-size: 100%;
     }
-    75%{
+    50%{
         background: url(/images/projectPhotos/theGProject/thumbnails/thumb03.gif);
         background-size: 100%;
     }
-    100%{
+    75%{
         background: url(/images/projectPhotos/theGProject/thumbnails/thumb04.gif);
+        background-size: 100%;
+    }
+    100%{
+        background: url(/images/projectPhotos/theGProject/thumbnails/thumb01.gif);
         background-size: 100%;
     }
 }
