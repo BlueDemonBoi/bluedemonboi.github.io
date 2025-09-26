@@ -1,7 +1,7 @@
 /* Jake Portfolio Styling File */
 
 body {
-       background-image: linear-gradient(75deg, #151944, #282d74, #323883, #282d74, #151944);
+    background-image: linear-gradient(75deg, #151944, #282d74, #323883, #282d74, #151944);
     color: #e5e8f0;
     font-weight: 300;
     display: flex;
