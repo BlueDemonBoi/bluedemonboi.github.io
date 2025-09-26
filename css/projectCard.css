@@ -42,17 +42,10 @@
     margin-top: .5rem;
 }
 
-.buttonMobileFix {
+.buttonAlign {
     display: flex;
     justify-content: center;
 }
-
-@media screen and (min-width: 750px) {
-    .buttonMobileFix {
-        display: block;
-    }
-}
-
 
 .goToProject:hover {
     background-color: #404263;

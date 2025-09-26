@@ -48,14 +48,14 @@ main {
     align-items: center;
     margin-bottom: 2.5vh;
 
-    background-color: #74c9eb;   
+    background-color: #74c9eb;
 }
 
-.subheader > h1,
-.subheader > h2,
-.subheader > h3,
-.subheader > h4,
-.subheader > h5 {
+.subheader>h1,
+.subheader>h2,
+.subheader>h3,
+.subheader>h4,
+.subheader>h5 {
     color: #242424;
     margin-top: 2rem;
 }
@@ -109,7 +109,7 @@ nav a {
 #toggle-nav-burger {
     border: none;
     font-size: 4.2rem;
-    color:#e3ecff;
+    color: #e3ecff;
     margin-right: 2rem;
 }
 
@@ -137,12 +137,13 @@ nav a {
         background-color: transparent;
         margin-right: 5%;
     }
+
     .menu-items li a {
         padding-top: 0rem;
         margin-right: 1.4rem;
         font-size: 3rem;
     }
-    
+
 }
 
 
@@ -153,7 +154,7 @@ nav a {
 h1,
 h2 {
     font-family: "Urbanist", sans-serif;
-    color:#e3ecff;
+    color: #e3ecff;
     font-weight: 700;
 }
 
@@ -178,15 +179,15 @@ p {
     min-width: 50%;
     text-align: center;
     background-color: transparent;
-    color:#1a2131;
+    color: #1a2131;
 }
 
-#PageNotFound > h1,
-#PageNotFound > h3 {
-    color:#e3ecff
+#PageNotFound>h1,
+#PageNotFound>h3 {
+    color: #e3ecff
 }
 
-#PageNotFound a > button {
+#PageNotFound a>button {
     font-size: 5rem;
     padding: 2rem 1rem;
     background-color: #1a2131;
@@ -194,7 +195,7 @@ p {
     height: fit-content;
 }
 
-#PageNotFound a > button:hover {
+#PageNotFound a>button:hover {
     transition: .25s;
     background-color: #ac1e1e;
     color: #f2f6ff;
@@ -210,7 +211,7 @@ textarea {
     color: #242424;
 }
 
-form > div > div > button {
+form>div>div>button {
     background-color: #e3ecff;
     color: #242424;
     font-size: 1.5rem;
@@ -219,7 +220,7 @@ form > div > div > button {
 
 /* Contact Page  ------------------------------------------------------------------*/
 
-#contactList > a  {
+#contactList>a {
     margin: 0;
     list-style-type: none;
     font-size: 2.5rem;
@@ -228,11 +229,11 @@ form > div > div > button {
     line-height: 4rem;
 }
 
-#contactList > a > li > i  {
+#contactList>a>li>i {
     font-size: 3rem;
 }
 
-#contactList > a:hover  {
+#contactList>a:hover {
     text-decoration: underline;
     color: #61f3fd;
 }
@@ -251,20 +252,20 @@ form > div > div > button {
     justify-content: space-between;
     align-content: center;
     z-index: 1000;
-    
+
 }
 
-.top-banner > p {
+.top-banner>p {
     margin-left: 3vw;
     min-width: calc(90%-1vw);
     color: #242424;
 }
 
-.top-banner > p > strong {
+.top-banner>p>strong {
     font-weight: 800;
 }
 
-.top-banner > button {
+.top-banner>button {
     border: none;
     color: #242424;
     padding: 0 2vw;
@@ -274,7 +275,7 @@ form > div > div > button {
 
 /* Gallery Setup  ------------------------------------------------------------------*/
 
-.gallery-container{
+.gallery-container {
     width: 100%;
     height: 5rem;
     align-content: center;
@@ -301,9 +302,9 @@ form > div > div > button {
 @media screen and (min-width: 750px) {
 
     .thumbnail-container {
-    flex-wrap: nowrap;
+        flex-wrap: nowrap;
     }
-    
+
 }
 
 .thumbnail {
@@ -342,7 +343,7 @@ form > div > div > button {
 
 .exp-card-content {
     transform: translateY(10%);
-    transition: all 1s cubic-bezier(10s,10s,10s,10s);
+    transition: all 1s cubic-bezier(10s, 10s, 10s, 10s);
 }
 
 .expanding-card:hover {
@@ -354,3 +355,22 @@ form > div > div > button {
     }
 }
 
+/* Device / Screen Specific Layouts  ------------------------------------------------------------------*/
+
+.desktopLayout {
+    display: none;
+}
+
+.mobileLayout {
+    display: contents;
+}
+
+@media screen and (min-width: 1000px) {
+    .desktopLayout {
+        display: contents;
+    }
+
+    .mobileLayout {
+        display: none;
+    }
+}
