@@ -1,7 +1,7 @@
 /* Jake Portfolio Styling File */
 
 body {
-    background-color: #284074;
+       background-image: linear-gradient(75deg, #151944, #282d74, #323883, #282d74, #151944);
     color: #e5e8f0;
     font-weight: 300;
     display: flex;
@@ -17,7 +17,7 @@ header {
     padding: .5em 0em 0em;
     width: 100%;
     text-align: center;
-    background-image: linear-gradient(to right, #ffffff00, #1a2131, #1a2131);
+    background-image: linear-gradient(to right, #ffffff00, #0e0e0e, #0e0e0e);
     color: #e5e8f0;
     flex-grow: .025;
 }
@@ -65,7 +65,7 @@ footer {
     padding: .5em 0em;
     width: 100%;
     text-align: center;
-    background-color: #1a2131;
+    background-color: #0e0e0e;
     color: #e5e8f0;
     flex-grow: .025;
 }
@@ -373,4 +373,8 @@ form>div>div>button {
     .mobileLayout {
         display: none;
     }
+}
+
+.BIckround {
+    background-image: linear-gradient(45deg, #bf04c5, #0031a5);
 }
