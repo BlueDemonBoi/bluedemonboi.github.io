@@ -29,7 +29,7 @@ header {
 
 main {
     width: 95%;
-    min-height: 70vh;
+    min-height: 100vh;
     height: fit-content;
     padding: 0.5%;
     margin: 0 auto;
@@ -321,8 +321,9 @@ form>div>div>button {
 }
 
 #main-display {
-    width: calc(75% - 2rem);
-    margin-left: 12.5%;
+    width: 100%;
+    /* margin-left: 5%; */
+    max-height: 720px;
     object-fit: contain;
     background-color: #61f3fd;
     padding: 1rem;
@@ -336,20 +337,21 @@ form>div>div>button {
     justify-content: space-evenly;
     margin: 2rem 0;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
-@media screen and (min-width: 750px) {
+/* @media screen and (min-width: 750px) {
 
     .thumbnail-container {
         flex-wrap: nowrap;
     }
 
-}
+} */
 
 .thumbnail {
     width: 100px;
     height: 100px;
-    margin: 1rem;
+    padding: 1% 1%;
     cursor: pointer;
     object-fit: contain;
 }
