@@ -26,4 +26,7 @@ iframe.youTube {
     aspect-ratio: 16 / 9;
 }
 
-
+.visJour {
+   width: 95%;
+   padding: 2.5%; 
+}
