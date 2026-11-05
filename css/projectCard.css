@@ -4,7 +4,7 @@
     width: 100%;
     height: 100%;
     min-height: 30vh;
-    background-color: #f8f8f8;
+    background-color: #1d163b;
     padding: 2rem, 2rem;
     margin: 2vh 1vw 2vh 0vw;
     border-radius: 1.25rem;
@@ -14,16 +14,16 @@
     color: #1a1a1a;
     font-weight: 500;
     font-size: 2rem;
-    margin-left: 1rem;
+    margin-left: 3rem;
 }
 
 .project-type {
-    color: #3a3a3a;
+    color: #dadada;
     font-family: "Roboto Sans", monospace;
     font-weight: 300;
     font-size: 1.25rem;
     line-height: 1.5rem;
-    margin-left: 1.5rem;
+    margin-left: 3rem;
     padding-bottom: 1.5rem;
 }
 
@@ -54,6 +54,7 @@
 
 .project-card:hover {
     box-shadow: 0 2.5rem 3rem #111111a8;
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 /* Project Cards Photo Setups  ---------------------------------------------------------*/

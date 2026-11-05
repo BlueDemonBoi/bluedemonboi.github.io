@@ -1,4 +1,5 @@
 #projectGallery {
-    background-image: linear-gradient(75deg, #151944, #282d74, #323883, #282d74, #151944);
+    /* background-image: linear-gradient(75deg, #151944, #282d74, #323883, #282d74, #151944); */
+    background-image: linear-gradient(75deg, #181920, #171822, #2d2e3f, #171822, #181920);
 }
 
